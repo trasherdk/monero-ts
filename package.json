@@ -6,6 +6,11 @@
   "repository": "https://github.com/monero-ecosystem/monero-javascript",
   "private": false,
   "main": "index.js",
+  "exports": {
+    "import": "index.mjs",
+    "require": "index.js"
+  }
+
   "scripts": {
     "start": "todo",
     "build_web_worker": "webpack --config ./webpack.worker.js",
