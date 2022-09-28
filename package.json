@@ -7,8 +7,8 @@
   "private": false,
   "main": "index.js",
   "exports": {
-    "import": "index.mjs",
-    "require": "index.js"
+    "import": "./index.mjs",
+    "require": "./index.js"
   },
   "scripts": {
     "start": "todo",
