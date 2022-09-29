@@ -8,7 +8,7 @@
   "main": "index.js",
   "exports": {
     "import": "./index.mjs",
-    "require": "./index.js"
+    "require": "./index.cjs"
   },
   "scripts": {
     "start": "todo",
